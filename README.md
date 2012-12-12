@@ -1,4 +1,4 @@
-# ControllerSupport
+# ControllerSupport [![Build Status](https://travis-ci.org/yonbergman/controller_support.png?branch=master)](https://travis-ci.org/yonbergman/controller_support)
 
 Controller Supports are controller oriented mixins (modules) for Rails that can help you extract behaviour from controllers into shared resources.
 
