@@ -16,12 +16,12 @@ class DummyController
   [:before_filter, :after_filter, :around_filter, :helper_method].each do |controller_func|
     getter = "#{controller_func}s"
 
-    define_singleton_method getter do
+    self.class.send :define_method, getter do
       @_symbols ||= {}
       @_symbols[controller_func] ||= []
     end
 
-    define_singleton_method controller_func do |*symbols|
+    self.class.send :define_method, controller_func do |*symbols|
       send(getter).concat symbols
     end
   end
