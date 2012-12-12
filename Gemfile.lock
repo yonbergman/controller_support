@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    Controller Support (0.0.1)
+      active_support
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
+    diff-lcs (1.1.3)
+    rake (10.0.2)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.1)
+    rspec-expectations (2.12.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  Controller Support!
+  rake
+  rspec
