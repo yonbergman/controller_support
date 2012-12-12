@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path  = "lib"
   s.test_files = Dir.glob('spec/lib/*_spec.rb')
 
-  s.add_dependency "active_support"
+  s.add_dependency "activesupport"
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
 end
