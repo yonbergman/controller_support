@@ -5,7 +5,7 @@ require "controller_support/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "Controller Support"
+  s.name        = "controller_support"
   s.version     = ControllerSupport::VERSION
   s.authors     = ["Yonatan Bergman"]
   s.email       = ["yonbergman@gmail.com"]
