@@ -38,7 +38,7 @@ module UserSupport
 	# ControllerSupport also support after_filter and around_filter
 	
 	def current_user
-		User.find(session[:user_id])
+		@user ||= User.find(session[:user_id])
 	end
 	
 	def user_signed_in?
@@ -73,7 +73,7 @@ end
 
 If you don't know about ActiveSupport::Concern and why it's an awesome thing you should read these stuff
 
-* [The offical documentation](http://api.rubyonrails.org/classes/ActiveSupport/Concern.html)
+* [The official documentation](http://api.rubyonrails.org/classes/ActiveSupport/Concern.html)
 * [Concerning yourself with ActiveSupport::Concern](http://www.fakingfantastic.com/2010/09/20/concerning-yourself-with-active-support-concern/) - This blog post covers everything you need to know
 * [Concerning ActiveSupport::Concern](http://opensoul.org/blog/archives/2011/02/07/concerning-activesupportconcern/)
 * [Extending ActiveModel via ActiveSupport::Concern](http://chris-schmitz.com/extending-activemodel-via-activesupportconcern/)

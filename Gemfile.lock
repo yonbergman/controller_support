@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Controller Support (0.0.1)
+    controller_support (0.2)
       active_support
 
 GEM
@@ -25,6 +25,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Controller Support!
+  controller_support!
   rake
   rspec
